@@ -200,17 +200,18 @@ async def info(client, message):
     if username:
         username = f"@{username}"
         text = f"""
-<b>User info</b>:
-ID: <code>{id}</code>
-First Name: {first_name}
-Username: {username}
-User link: {user_link}"""
+<b>Stilton Family</b>:
+[Geronimo Stilton](t.me/geronimo1234)
+[Thea Stilton](t.me/karenuserbot)
+[Benjamin Stilton](t.me/Geronimo1234_bot)
+[Bugsy Wugsy](t.me/The_Jarvis_user_bot)"""
     else:
         text = f"""
-<b>User info</b>:
-ID: <code>{id}</code>
-First Name: {first_name}
-User link: {user_link}"""
+<b>Stilton Family</b>:
+[Geronimo Stilton](t.me/geronimo1234)
+[Thea Stilton](t.me/karenuserbot)
+[Benjamin Stilton](t.me/Geronimo1234_bot)
+[Bugsy Wugsy](t.me/The_Jarvis_user_bot)"""
     await message.reply(text, parse_mode="HTML")
 
 
